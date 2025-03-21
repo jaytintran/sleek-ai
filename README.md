@@ -7,7 +7,7 @@ Sleek AI - a perfect designed responsive landing page website for an AI SaaS sta
 Sleek AI features a modern and sleek design, making it an ideal choice for showcasing its upcoming AI SaaS product. It's responsive, ensuring a seamless experience across various devices.
 
 - Key Features: beautiful sections, parallax effects, latest UI trends, cool gradients, and more.
-- Tech Stack: Vite, React.js, Tailwind CSS
+- Tech Stack: Vite, React.js, Tailwind CSS, React Router, and more.
 - Purpose: to provide a visually appealing and functional landing page for Sleek AI.
 
 ## Installation
