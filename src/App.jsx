@@ -1,10 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import Home from "@/scenes/home/Home";
-import About from "./scenes/about/About";
+import Home from "@/pages/home/Home";
+import About from "@/pages/about/About";
+import Navbar from "@/components/layout/Navbar";
+import ButtonGradient from "@/assets/svg/ButtonGradient";
 
-function App() {
+const App = () => {
   return (
     <>
+      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -13,6 +16,6 @@ function App() {
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;
