@@ -22,6 +22,10 @@
   }
 }
 
+.container {
+  @apply max-w-7xl mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem] xl:px-10 max-lg:py-4;
+}
+
 .rotate-45 {
   @apply rotate-[45deg];
 }

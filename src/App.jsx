@@ -7,8 +7,8 @@ import ButtonGradient from "@/assets/svg/ButtonGradient";
 const App = () => {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
