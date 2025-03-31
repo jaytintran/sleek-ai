@@ -1,0 +1,14 @@
+import React from "react";
+
+const Heading = ({ title, className, subtitle }) => {
+  return (
+    <div className={`${className} max-w-[60rem] mx-auto mb-12 lg:mb-20`}>
+      {title && <h2 className="h2">{title}</h2>}
+      {subtitle && (
+        <p className="text-lg text-gray-600 dark:text-white">{subtitle}</p>
+      )}
+    </div>
+  );
+};
+
+export default Heading;

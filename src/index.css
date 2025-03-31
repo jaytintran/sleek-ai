@@ -27,6 +27,14 @@
   }
 }
 
+@layer utilities {
+  .neon-border {
+    border-color: rgba(0, 183, 255, 0.8); /* Neon blue */
+    /* box-shadow: 0 0 10px rgba(0, 183, 255, 0.8), 0 0 20px rgba(0, 183, 255, 0.6),
+      0 0 30px rgba(0, 183, 255, 0.4); */
+  }
+}
+
 .container {
   @apply max-w-7xl mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem] xl:px-10 max-lg:py-4;
 }

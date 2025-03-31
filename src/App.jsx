@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import Home from "@/pages/Home";
-import About from "@/pages/About";
+import Home from "@/sections/Home";
+import About from "@/sections/About";
 import Navbar from "@/components/layout/Navbar";
 import ButtonGradient from "@/assets/svg/ButtonGradient";
 
