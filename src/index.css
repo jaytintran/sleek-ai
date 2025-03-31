@@ -6,6 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+
+  Create custom variables here to use in index.css and tailwind.config.js
+
+*/
 :root {
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
@@ -88,4 +93,8 @@
 
 .-rotate-360 {
   @apply rotate-[-360deg];
+}
+
+.hover-blur {
+  @apply hover:blur-sm transition-all duration-200 ease-in-out;
 }

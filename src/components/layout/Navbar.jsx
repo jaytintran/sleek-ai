@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50 py-5 border-b lg:bg-n-8/90 lg:backdrop-blur-sm ${
+      className={`sticky w-full z-50 py-5 border-b lg:bg-n-8/90 lg:backdrop-blur-sm ${
         isMobileNavOpen ? "bg-n-8" : "bg-b-8/90"
       }`}
     >
