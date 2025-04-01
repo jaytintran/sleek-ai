@@ -22,7 +22,7 @@ const Hero = () => {
 
           {/* Title */}
           <h1 className="h1 mb-6">
-            Explore The Possiblities of A.I Conversation with SleekAI
+            Explore The Possiblities of A.I Conversation with{" "}
             <span className="inline-block relative">
               SleekAI
               <img

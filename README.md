@@ -25,12 +25,12 @@ To get this project up and running on your local machine, follow these steps:
 
 2. **Install dependencies:**
 
-   - For Node.js projects:
-     ```bash
-     npm install
-     ```
+   ```bash
+   npm install
+   ```
 
 3. **Run the project:**
+
    ```bash
    npm start
    ```

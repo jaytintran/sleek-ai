@@ -106,3 +106,7 @@
 .hover-blur {
   @apply hover:blur-sm transition-all duration-200 ease-in-out;
 }
+
+.pricing-primary {
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}

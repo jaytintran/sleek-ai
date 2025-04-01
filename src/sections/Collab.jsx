@@ -8,7 +8,7 @@ import React from "react";
 const Collab = () => {
   return (
     <Section id="collaboration">
-      <div className="container mx-auto max-w-7xl flex flex-col items-center px-6">
+      <div className="flex flex-col items-center px-6">
         <Heading
           title="Seamless Collaboration for a Better Future!"
           subtitle="Made for Collaborators, by Collaborators."
